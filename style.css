@@ -1,0 +1,123 @@
+.image{
+	height: 350px;
+}
+
+body{
+	font-size: 14px;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightblue;
+	background: -webkit-radial-gradient(rgb(255, 255, 255), rgb(8, 59, 111));
+	background: radial-gradient(rgb(255, 255, 255), rgb(8, 59, 111));
+}
+
+.headers{
+	display: inline-block;
+	height: 375px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+hgroup{
+	float: left;
+	padding: 50px;
+}
+
+.picture{
+	float: right;
+}
+
+h2{
+	text-align: center;
+}
+
+blockquote, p{
+	font-family: "Times new Roman", serif;
+	color: #000d1a;
+	width: 50%;
+	margin:0 auto;
+	background-color: lightgray;
+	font-size: 160%;
+	border-left: 3px dashed black;
+	padding: 30px;
+	font-style: italic;
+}
+
+blockquote{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+p:first-of-type{
+	font-weight: bold;
+}
+
+.farmer{
+	font-style: italic;
+	border-left: 2px solid blue;
+}
+
+.villagers{
+	font-style: italic;
+	border-left: 2px solid red;
+}
+
+.good{
+	font-weight: normal;
+	text-transform: capitalize;
+	color: green;
+}
+
+.bad{
+	font-weight: normal;
+	text-transform: capitalize;
+	color: red;
+}
+
+.footer{
+	font-size: 14px;
+}
+
+.table, th, td{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.table{
+	width: 50%;
+	margin-left: 25%;
+}
+
+.philo{
+	text-align: center;
+	margin-top: 0px;
+}
+
+.gray{
+	background-color: gray;
+}
+
+.white{
+	background-color: white;
+}
+
+a{
+	color: darkred;
+	text-decoration: none;
+}
+
+a:hover{
+	color: green;
+	text-decoration: none;
+}
+
+a:visited{
+	color: darkblue;
+	text-decoration: none;
+}
+
+hr{
+	border: 2px solid black;
+}
+
